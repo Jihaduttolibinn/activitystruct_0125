@@ -32,12 +32,15 @@ int main() {
         cout << "\t Nama Kota : ";
         cin >> mhs[i].alamat.kota;
 
-
-
-
-
-
-
-
-
+        cin >> mhs[i].umur;
+        cin.ignore(1, '\n');
+        cout << endl;
     }
+
+
+
+
+
+
+
+    
