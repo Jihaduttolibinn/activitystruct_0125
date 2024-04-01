@@ -7,12 +7,11 @@ struct DetailAlamat {
     string kkota;
 };
 
+struct Mahasiswa {
+    string nim;
+    string nama;
+    string alamat;
+    int umur;
+};
 
-int main()
-{
-    std::cout << "Hello World!\n";
-}
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
 
